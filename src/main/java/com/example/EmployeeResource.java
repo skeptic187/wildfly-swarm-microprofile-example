@@ -19,7 +19,7 @@ public class EmployeeResource {
   }
   
   private static String[] generateEmployeeNameArray(){
-	String[] names = {"frank","bernd","ralf"};
+	String[] names = {"frank","peter","ralf"};
 	return names;
 
   }
