@@ -1,12 +1,11 @@
-package com.example;
+package de.eberle.microswarm;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
 /**
- * @author Ken Finnigan
+ * @author Tobias Eberle
  */
-
 @ApplicationPath("/")
 public class MyApplication extends Application {
     public MyApplication() {
