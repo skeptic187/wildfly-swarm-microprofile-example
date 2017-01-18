@@ -7,7 +7,7 @@
 	<artifactId>demo</artifactId>
 	<name>Wildfly Swarm Microprofile Example</name>
 	<version>1.0.0-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<properties>
 		<version.wildfly.swarm>2017.1.1</version.wildfly.swarm>
@@ -36,9 +36,6 @@
 				<groupId>org.wildfly.swarm</groupId>
 				<artifactId>wildfly-swarm-plugin</artifactId>
 				<version>${version.wildfly.swarm}</version>
-				<configuration>
-					<mainClass>com.example.Main</mainClass>
-				</configuration>
 				<executions>
 					<execution>
 						<goals>
